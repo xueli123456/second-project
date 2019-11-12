@@ -1,0 +1,449 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;	
+}
+header{
+    background-color: #333;
+    height: 67px;
+   width: 100%;
+}
+.header-container{
+	width: 960px;
+    height: 67px;
+    margin: 0 auto;
+    position: relative;
+}
+.container-left{
+	float: left;
+	margin-right: 20px;
+}
+.header-container img{ 
+	margin-left: 4px;
+    margin-top: 17px;
+}
+.container-right{
+	color: white;
+    font-size: 18px;
+    height:45px;
+    line-height: 46px;
+    font-family: "arial";
+    padding-top: 14px;
+    float: left;
+}
+.container-right span{
+	display: inline-block;
+	font-size: 18px;
+    float: left;
+    margin-top: -2px;
+    color: #cccccc;
+    margin-right: 20px;
+}
+.xl_all{
+	width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2; 
+}   
+.register-content{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 960px;
+}
+.regConTop{
+   height:36px;
+}
+.regConTopleft{
+	float: left;
+}
+.regConTopleft a{
+	display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: white;
+    width: 146px;
+    text-align: center;
+}
+.regConTopleft i{
+	display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 26px;
+    width: 14px;
+    height: 22px;
+    background: url(../img/reg-img01.png) no-repeat;
+    
+}   
+.regConTop-phone{
+	background: #b40707;
+}
+.regConTop-emali{
+	background: #ccc;
+}
+.regConTop-phone i{
+	background-position: 0 -18px;  
+}
+.regConTop-emali i{
+	width: 22px!important;
+	left: 16px;
+	background-position: 0 4px;
+} 
+.regConTopleft span{
+	display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 30px;
+    text-align: center;
+}
+.regConTopRig{
+	float: right;
+	margin-top: 10px;
+    font-size: 14px;
+} 
+.regConTopRig a{
+	color: #0064cc;
+}
+.regConFoot{
+	padding: 30px 270px;
+    font-size: 14px;
+    color: #333;
+    background: #fff; 
+}
+.regsterTitle{
+	text-align: center;
+    margin: 10px 0 30px;
+}
+    
+.mainTitle{
+  	font-size: 24px;
+}
+.subTitle{
+	font-size: 16px;
+    margin-top:8px;
+    color: #999;
+} 
+/*选择国家*/
+.chooseCountry,.phoneInput,.geetest,.geeSeccess,.message,.password,.qpassword{
+	margin-top: 20px;
+    background: #f7f7f7;
+    height: 42px;
+    border: 1px solid #d9d9d9;
+    border-radius: 21px;
+    position: relative;
+}
+.choCory-left,.phoneInput-left,.message-left{
+    height: 100%;
+    border-right: 1px solid #d9d9d9;
+    padding: 0 16px;
+    line-height: 42px;
+    float: left;
+}
+.dropMenu {
+    line-height: 42px;
+}
+/*.input-content input {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0 16px;
+    background: transparent;
+    *height: 40px;
+    *line-height: 40px;
+}*/
+.select-text {
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+}
+ .select-ico {
+	position: absolute;
+	right: 16px;
+    top: 19px;
+    width: 12px;
+    height: 6px;
+    background-image: url(../register-img/triangle_green.png);
+    background-size: cover;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.phoneInput-left .select-ico{
+	left: 100px!important;
+}
+.input-right {
+    height: 100%;
+    padding-right: 16px;
+    line-height: 42px;
+    width: 10px;
+    float: right;
+}
+.input-content {
+    height: 100%;
+    overflow: hidden;
+}
+.lb_opacity_Class{
+	display: block; 
+	position: absolute;
+	cursor: text; 
+	float: left; 
+	z-index: 2;
+	padding-left: 0px; 
+	padding-top: 10px;
+}
+.input-content .lb_opacity_Class{
+	padding-top: 6px!important;
+} 
+.text-input-number{
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 0 16px;
+    border: none;
+    background: transparent;
+    cursor: text;
+    margin: 2px;
+    color: rgb(204, 204, 204);
+}
+.input-content input{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0 16px;
+    background: transparent;
+    line-height: 28px;
+    font-size: 14px;
+    z-index: 1;
+    outline: none;
+}
+.geetest{
+	cursor: pointer;
+	left: 0;
+	transition: all .3s linear; 
+    background-image: linear-gradient(180deg, #ffffff 0%,#f3f3f3 100%);
+}
+.geetest span{
+	display: inline-block;
+	line-height: 42px;
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+.gee-btn{
+	margin: 6px;
+    width: 30px;
+    height: 30px;
+	position: absolute;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px #2488FF;
+    background-color: #7DB4FF;
+    background-image: linear-gradient(115deg, rgba(0,0,0,0) 50%,#c5daf9 50%),linear-gradient(65deg, #c5daf9 50%,rgba(0,0,0,0) 50%);
+}
+.gee-smalbtn{
+	background: #2488FF;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 9px;    
+}
+.geeSeccess{
+    top: -20px;
+    width: 420px;
+    background: #EEFFF5;
+    cursor: default;
+    border-color: #26C267;
+    transition: width ease;
+    color: #18A452;
+    display: none;
+    position: absolute!important;
+    z-index: 11;
+}
+.geeSecc-btn{
+	position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    background-image: url(../register-img/sprite.1.0.3.png);
+    background-position: -113px 125px;
+}
+.geeSeccess span{
+    display: inline-block;
+    line-height: 42px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+.get-code{
+    display: inline-block;
+    margin-top: 11px;
+    background: #f7f7f7;
+    border: 0;
+    color: #007dff;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+    /*display: none;*/
+}
+.reg-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+.btn-reg{
+    width: 200px;
+    height: 40px;
+    background-color: #b40707;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+   
+}
+.btn-reg:hover{
+	background-color: #C70000;
+}
+input{
+	 outline: none;
+}
+.box-shadow {
+    padding-top: 40px;
+    width: 960px;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+    background: #f2f2f2;
+}
+.xl_loginFoot{
+	width: 100%;
+	display: flex;
+}
+.xl_loginFootCon{
+	margin: 20px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.xl_loginFootCon p{
+	text-align: center;
+    line-height: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.xl_loginFootCon a{
+	 color: #999;
+     padding: 0 10px;
+}
+.xl_loginFootCon a:hover{
+	text-decoration: underline;
+}
+.error-tips-EMUI5{
+    padding: 0 16px;
+    font-size: 12px;
+    color: #ff3320;
+    margin-top: 4px;
+}
+.geeAll{
+	position: relative;
+}
+.input-error-EMUI5 {
+    border: 1px solid rgba(255,51,32,0.5)!important;
+}
+#sCode{
+	display: inline-block;
+    margin-top: 3px;
+    background: #f7f7f7;
+    border: 0;
+    color: #007dff;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    border: 1px solid #00e1ff;
+    border-radius:20px ;
+    padding: 12px 8px;
+    background-color: azure;
+    right: -1px;
+    top:-4px;
+    letter-spacing:4px;
+    display: none;
+}
+#randomCode{
+	text-decoration: underline;
+	position: absolute;
+	height: 100%;
+    padding-right: 16px;
+    line-height: 42px;
+    float: right;
+    color: cornflowerblue;
+    cursor: pointer;
+    right: -65px;
+    top:4px;
+    display: none;
+}
+.ol_box_mask{
+    position: fixed!important;
+   /* position: absolute;*/
+    top: 0;
+    left: 0;
+    z-index: 499;
+    opacity: .3;
+    background-color: #000;
+    visibility: visible;
+    width: 1348px;
+    height: 509213px;
+    z-index: 4999;
+    display: none;
+}
+.reg-sucess{
+	width: 400px;
+    background: #fff;
+	position: fixed;
+    top: 50%;
+    left:50%;
+    z-index: 5000;
+    height: 100px;
+	border: 1px solid #cecece;
+	margin-top: -50px;
+	margin-left:-200px ;
+	text-align: center;
+	font-size:24px ;
+	color: brown;
+	line-height:100px ;
+	display: none;
+}    
+
+
+   
+    
+        
+   
+    

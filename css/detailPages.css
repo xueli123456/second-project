@@ -1,0 +1,957 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color: #3a3a3a;
+}
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;	
+}
+.xl_honorNav{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.04);
+} 
+.xl_smallNav{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.xl_smallNavCon{
+    color: #BBB;
+    margin-left: 1px;
+    line-height: 1.5;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.xl_smallNavCon a{
+	color: #666;
+}
+.xl_smallNavCon span{
+	color: #333;
+}
+/*图片开始*/
+.det_product {
+    width: 1200px;
+    margin: 10px auto;
+}
+.det_productLeft{
+	float: left;
+}
+.det_proLeftImg{
+    position: static;
+    top: 0px;
+    width: 450px;
+    margin: 0 auto;
+}
+.det_proLeftImgRe{
+	position: relative;
+}
+.det_proLeftImgCon{
+	width: 450px;
+    height: 450px;
+    position: relative;
+} 
+.del_smallPic{
+	width: 450px;
+    height: 450px; 
+	position: absolute;
+	background-image: url(../honor20-img/honor20.png);
+	
+	background-size: 450px 450px;
+	background-repeat: no-repeat;
+	cursor: move;
+}
+.del_proMask{
+	height: 225px;
+	width: 225px;
+	position: absolute;
+	background-color: white;
+	opacity: 0.5;
+	display: none;
+	border: 1px solid #888888;
+	cursor: move;
+}
+.del_BigPic{
+	border: 2px solid #CCCCCC;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	background-image: url(../honor20-img/honor20.png);
+	background-size: 800px 800px;
+	background-repeat: no-repeat;
+	left:460px;
+	top:0px;
+	display: none;
+	z-index: 999;
+	background-color: white;
+	/*overflow: hidden;*/
+}
+.det_productRight{
+	float: right;
+    position: relative;
+    font-size: 10px;
+}
+.det_proRigCon{
+	min-height: 462px;
+    height: auto;
+    padding-bottom: 104px;
+    width: 700px;
+    padding: 0 0 30px 30px;
+    position: relative;
+}
+.det_proRigTop h1 {
+    font-size: 21px;
+    max-height: 84px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-weight: 400;
+} 
+.pro-slogan{
+    font-size: 14px;
+    padding-right: 40px;
+    margin-bottom: 12px;
+    position: relative;
+    top: -3px;
+    line-height: 20px;
+}
+.pro-slogan span:first-child{
+    margin-right: 15px;
+    color: #ca141d!important;
+}
+.det_proRigMiddle{
+	background: #f5f5f5;
+    padding-top: 14px;
+    padding-bottom: 3px;
+} 
+.det_proinfList{
+	padding-bottom: 4px;
+} 
+.det_Listprice{
+	display: inline-block;
+    float: left;
+    width: 85px;
+    text-indent: 10px;
+    line-height: 30px;
+} 
+ .det_proPrice{
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+} 
+.det_proPrice span{
+	color: #ca141d;
+    padding-right: 3px;
+} 
+.type{
+	position: relative;
+    top: -1px
+} 
+.f24{
+	font-size: 22px;
+}
+.det_proPrice em{
+	font-size: 16px;
+    margin-right: 4px;
+    font-weight: 400;
+    font-style: normal;
+}     
+.det_proPrice del{
+	color: #a4a4a4;
+}
+.det_proinfProm{
+	width: 615px;
+    max-height: 120px;
+    overflow: hidden;
+    float: left;
+    padding-bottom:5px ;
+}
+.det_proinfParts,.det_proinfPartsHid{
+	display: flex;
+}
+.det_proinfPartsTag{
+    float: left;
+    line-height: 18px;
+    height: 18px;
+    border: 1px solid #ca141d;
+    padding: 0 6px;
+    min-width: 24px;
+    color: #ca141d;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.det_proPartsCon{
+	margin-top: 0;
+    line-height: 30px;
+    max-width: 565px;
+    position: relative;
+    float: left;
+}
+.det_proPartsCon a{
+     float: left;
+	margin-left: 10px;
+}  
+.det_proPartsCon img{
+	width: 30px;
+    height: 30px;
+    display: block;
+}
+.det_proChoice{
+    line-height: 30px;
+    color: #888;
+    margin-left: 10px;
+}
+.product-prom-btn{
+	position: absolute;
+    right: 12px;
+    color: #888;
+    line-height: 30px;
+} 
+.product-prom-btn:after,.product-pulldown-btn:after{
+    content: "";
+    width: 12px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 8px;
+    background: url(../honor20-img/icon50.png) no-repeat -4px -7px;
+} 
+.del_proPull{
+	display: flex;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+.del_proPulTopL{
+    float: left;
+     margin-right: 20px;
+     font-size: 10px;
+}
+.del_proPuladdAll{
+	position: relative;
+}
+.product-pulldown-btn{
+	color: #3a3a3a!important;
+	height: 28px;
+    line-height: 28px;
+    padding: 0 10px 0 10px;
+    float: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+}
+.product-pulldown-btn:hover{
+	color: #3a3a3a!important;
+}
+.del_proPulTopHid{
+	position: absolute;
+    top: 29px;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+.del_proPulTopHidCon{
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    padding-top: 5px;
+} 
+.del_proPulHidChoose{  
+    padding: 0 10px;
+    width: 326px;
+    line-height: 1;
+}
+.del_proChooseTop{
+	padding-top: 15px;
+}
+.del_proChooseTop dt {
+    display: block;
+    font-weight: bold;
+   /* padding-bottom: 10px;*/
+}
+.del_proChooseTop dd{
+    float: left;
+    margin-right: 20px;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 10px;
+}
+.del_proChooseFoot{
+	padding-bottom: 13px;
+    line-height: 1.5;
+    font-size: 10px;
+}
+.del_kong{
+	border-top: 1px solid #fff;
+    position: absolute;
+    z-index: 20;
+    height: 1px;
+    top: 29px;
+    left: 1px;  
+    width: 151px;
+    display: none; 
+}
+.del_proPulTop{
+	float: left;
+}
+.del_proPulTop:hover .del_proPulTopHid,.del_proPulTop:hover .del_kong{
+	display: block;
+}
+.del_proPulTop:hover .product-pulldown-btn:after{
+	 background: url(../honor20-img/icon50.png) no-repeat -5px -47px;
+}
+.del_proPulTopRig{
+	float: left;
+    line-height: 30px;
+    position: relative;
+    top: -1px;
+}
+ .del_proPulTopRig span{
+ 	color: #ca141d!important;
+ }  
+.del_proPulFoot{
+	margin-top: 10px;
+	float: left;
+	width: 614px;
+    line-height: 24px;
+}
+.del_proPulFoot li{
+	display: inline-block;
+    margin-right: 12px;
+    position: relative;
+    padding-left: 18px;
+    line-height: 18px;
+	font-size: 10px;
+} 
+.del_prodes span{
+	line-height: 1.5!important;
+}
+.del_line {
+	margin-top:5px ;
+    font-size: 1px;
+    line-height: 1px;
+    height: 0;
+    background: 0;
+    border-bottom: 1px solid #ddd;
+} 
+/*颜色选择*/
+.del_proColor{
+	margin-top: 15px;
+}
+#det_ListColor{
+	line-height: 40px;
+}
+
+.del_proColor-detail{
+    width: 605px;
+    float: left;
+ 
+}
+.del_proColor-detail{
+	width: 605px;
+} 
+.del_proColor-detail ul li,.del_proEdition-detail ul li,.del_proRecommend ul li{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.del_proColor-detail ul li a:hover,.del_proEdition-detail a,{
+	color: #3a3a3a!important;
+}
+.del_proColor-detail ul li a,.del_proEdition-detail a{
+	display:inline-block ;
+    height: 38px;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    border-radius: 2px;
+    position: relative;
+    padding: 0 12px;
+    color: #3a3a3a;
+}
+.del_proColor-detail ul li a img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 4px;
+} 
+.del_proColor-detail ul li a p{
+    height: 34px;
+    overflow: hidden;
+    float: left;
+    margin-top: 3px;
+    margin-left: 6px;    
+}
+.del_proColor-detail ul li a span{
+	display: inline-block;
+	text-align: center;
+    height: 34px;
+    line-height: 34px;
+    min-width: 0;
+    max-width: 86px;
+}
+.del_proEdition-detail a{
+	height: 26px;
+}  
+.del_proEdition-detail span{
+	display: inline-block;
+	 line-height: 26px;
+} 
+
+.del_proRecommend a {
+    background: #f5f5f5;
+    line-height: 30px;
+    padding: 0 20px;
+    display: block;
+    max-width: 565px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 2px;
+    color: #3a3a3a
+}
+.del_selected{
+	color: #ca141d;
+    width: 568px;
+    float: left;
+    margin-top: 6px;
+}  
+.del_cart{
+    margin-top: 10px;
+    position: relative;
+}
+.del_cartCon-stock{
+    float: left;
+    border: 1px solid #d6d6d6;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.product-stock-text{
+    float: left;
+    width: 41px;
+    height: 44px;
+    line-height: 44px;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+    border-right: 1px solid #e2e2e2;
+    outline: none;
+}
+.product-stock-btn {
+    width: 21px;
+    float: left;
+}
+.product-stock-btn a:first-child {
+    border-bottom: 1px solid #e2e2e2;
+}
+.product-stock-btn a.disabled {
+    color: #c4c4c4;
+    cursor: not-allowed;
+   
+}
+.product-stock-btn a{
+    display: block;
+    font-size: 16px;
+    width: 21px;
+    height: 21px;
+    line-height: 22px;
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+}
+.product-buttonmain{
+    position: relative;
+    margin-left: 85px;
+}
+.product-button a{
+    float: left;
+    margin-right: 10px;
+    background-position-y: 8px;
+    display: block;
+}
+.product-button01,.product-button02{
+    display: block;
+    background: #fc600c;
+    width: 172px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.product-button02{
+    background: #ca151d!important;
+}
+.product-button01:hover,.product-button02:hover{
+	opacity: 0.8;
+	color: #fff!important;
+}
+/*购物车弹出框*/
+.del-boxct{
+	 width: 460px;
+    background: #fff;
+	position: fixed;
+    top: 50%;
+    left: 444.5px;
+    z-index: 5000;
+	border: 1px solid #cecece;
+	margin-top: -98px;
+	display: none;
+}
+.del-boxheader{
+    position: relative;
+    min-height: 30px;
+}
+.del-box-close{
+    display: block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: 0;
+    z-index: 2;
+    background-image: ;
+}
+.del-box-close:before {
+    content: "";
+    width: 15px;
+    height: 14px;
+    display: block;
+    margin: 2px 0 0 3px;
+    background: url(../honor20-img/icon-close.png) no-repeat;
+}
+.del-boxct table{
+	table-layout: fixed;
+    background: #fff;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.del-box-con{
+    padding: 0 30px;
+    overflow-y: visible!important;
+}
+.pro-add-success {
+    background: #fff;
+}
+.box-right-2:before {
+    content: "";
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url(../honor20-img/icon-layer.png) no-repeat;
+}
+.box-right-2:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box-right-2:before {
+    background-position: 0 0;
+}
+.box-right-2 {
+    text-align: center;
+    color: #444;
+    font-size: 18px;
+    height: 27px;
+    height: auto;
+    min-height: 46px;
+    padding-left: 37px;
+    position: relative;
+    top: -6px;
+    text-align: left;
+    width: 348px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.pro-add-success .box-button {
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 0;
+}
+.pro-add-success .box-cancel,.pro-add-success .box-ok{
+    display: inline-block;
+    min-width: 170px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #ddd;
+    background: #fff;
+    font-size: 18px;
+    margin: 0 5px;
+    white-space: nowrap;
+    border-radius: 2px;
+    color: #3a3a3a;
+}
+.pro-add-success .box-ok{
+	color: white;
+    background: #ca141d;
+    border: 1px solid #ca141d;
+}
+.ol_box_mask {
+    position: fixed!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 499;
+    opacity: .4;
+    background-color: #000;
+    visibility: visible;
+    width: 1348px;
+    height: 509213px;
+    z-index: 4999;
+    display: none;
+}
+
+
+
+.del_line2{
+	margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+}
+.del_discount{
+	width: 1200px;
+	margin: 0 auto;
+}
+.del_discount-rec{
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 28px;
+}
+.del_drec-top{
+	height: 30px;
+    font-size: 16px;
+    color: #5b5b5b;
+    padding: 11px 0 19px 37px;
+}
+.del_drec-top a{
+    float: left;
+    margin-right: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    padding: 0 9px;
+    max-width: 178px;
+    position: relative;
+    color: #ca141d;
+    cursor: default;
+    border-bottom:1px solid #ca141d;;
+}
+.del_drec-footerLef{
+	float: left;
+    width: 210px;
+    position: relative;
+}
+.del_drec-footerLefCon{
+	margin-left: 15px;
+}
+.del_drec-footerLef:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 42px;
+    right: 30px;
+    background: url(../honor20-img/icon50.png) no-repeat 0 -86px;
+    cursor: default;
+}
+.del_drec-footerLefCon li{
+	position: relative;
+    float: left;
+    width: 149px;
+}
+.del_drec-footerLefCon a{
+	width: 120px;
+    display: block;
+    color: #333;
+    margin: 0 auto;
+}
+.del_drec-footerLefCon img{
+	width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.del_drec-footerLefCon p,.del_drec-page p{
+	margin: 6px 8px;
+    height: 36px;
+    
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.del_drec-fLw{
+	text-align: center;
+}
+.del_drec-footerLefCon span{
+	color: #ca141d!important;
+}
+.del_drec-footerMid{
+	float: left;
+    width: 789px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.del_drec-fMidCon{
+	width: 745px;
+    height: 212px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: static; 
+}
+.del-btn-prev{
+    left: 0;
+     cursor: not-allowed;	
+}
+.del-btn-prev,.del-btn-next{
+    top: 12px;
+    margin-top: 0;
+    background: #f0f0f0;
+    height: 75px;
+    width: 22px;
+    position: absolute;
+    z-index: 3;
+}
+.del-btn-prev span,.del-btn-next span{
+	display: block;
+    margin: 28px auto;
+    height: 16px;
+    width: 11px;
+    background: transparent url(../img/icon2.png) scroll no-repeat;
+    background-position: -71px 0;
+} 
+.del-btn-next{
+	background: rgba(204,204,204,0.9);
+    right: 0;
+}
+.del-btn-next span{
+	 background-position: -82px 0!important;
+}
+.del_drec-page{
+    width: 1490px;
+    height: 212px;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0s;
+    transition-property: transform,left,top;
+    transition-timing-function: ease;
+    box-sizing: content-box;
+}
+.del_drec-page>li{
+	position: relative;
+    float: left;
+    width: 149px;
+}
+.del_drec-page a{
+	width: 120px;
+    display: block;
+    color: #333;
+    margin: 0 auto;
+} 
+.del_drec-page li a img{
+	width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;  
+}
+.del_drec-pageSmal{
+	position: relative;
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+.del_drec-pageDel{
+	width: 105px;
+    margin: 0 auto;
+    overflow: hidden;  
+}
+.del_pageDel-prev,.del_pageDel-next{
+	position: absolute;
+    width: 12px;
+    height: 30px;
+    top: 0;
+    background: 0; 
+    cursor: pointer;
+    z-index: 3;
+}
+.del_pageDel-prev span,.del_pageDel-next span{
+	 width: 12px;
+    height: 12px;
+    display: block;
+    margin-top: 9px;
+    margin-bottom: 0;
+    background: url(../honor20-img/icon50.png) no-repeat;
+    background-position: -51px -345px;
+}
+.del_pageDel-prev{
+	left: 7px;	
+}
+.del_pageDel-next{
+	right: 8px;
+}
+.del_pageDel-next span{
+	background-position: -64px -345px!important;
+}
+.del_drec-spage{
+	width: 600px;
+	box-sizing: content-box;
+}
+.del_drec-spage li{
+	width: 35px;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.del_drec-spage li a{
+	 display: block;
+    width: 30px;
+    margin-left: 2px;
+}
+.del_drec-spage li a img{
+	width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    border: 1px solid #a4a4a4;
+}
+    
+.del_pageprice{
+	text-indent: 24px; 
+	color: #ca141d!important;
+}
+.del_pageprice input{
+	display: inline-block;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background: url(../honor20-img/icon-header.png) no-repeat;
+    background-position: -18px -129px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px; 
+    background-position: 0 -129px;
+}
+.del_pageprice s{
+	color: #a4a4a4;
+    margin-left: 5px;
+}
+.del_drec-footerRig{
+	 float: left;
+    margin-top: 11px;
+    width: 165px;
+    padding-left: 36px;
+    color: #333; 
+}
+.del_drec-footerRig li:first-child {
+    margin-bottom: 1px;
+}
+em{
+	font-style: normal;
+    font-weight: 400;
+}
+.del_drec-footerRig span{
+	color: #ca141d;
+    font-size: 16px;
+}
+.del_drec-footerRig a{
+	width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 12px; 
+}
+/*商品详情标签*/
+.del_tag{
+	position: static;
+    top: 0px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 100;
+}
+.del_tagCon{
+	width: 1200px;
+    margin: 0 auto;
+    position: relative;    
+}
+.del_tagCon p{
+	padding: 36px 0 37px 0;
+    text-align: center;
+    font-size: 0;
+}
+.del_tagCon a{
+    color: #ca141d;
+    cursor: default;
+    margin: 0 25px;
+    font-size: 18px;
+    padding: 0 10px 6px 10px;
+    color: #a4a4a4;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.del_tagCon em{
+	width: 100%;
+    height: 2px;
+    display: block;
+    background: #fff;
+    background: #ca141d;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} 
+.del_detail{
+	text-align: center;
+    overflow: hidden;
+    min-width: 1200px;
+    position: relative;
+} 
+.del_detailCon img{
+	vertical-align: top;
+    width: 100%;
+    min-width: 1000px;
+} 
+.tab_fix_bottom {
+    position: absolute;
+    bottom: 0px;
+    top: auto;
+}
+
+.tab_fix {
+    position: fixed;
+    margin-top: 0;
+    z-index: 99;
+} 
+    
+    
+    
+
+  
+   
+   
+    
+  
+
+       
+   
+  
+    
+
+    

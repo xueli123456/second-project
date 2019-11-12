@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>华为商城</title>
+		<link rel="shortcut icon" href="https://www.vmall.com/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/first.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+		<link rel="stylesheet" type="text/css" href="css/login1.css"/>
+	</head>
+
+	<body>
+		<div class="cart">
+		<header></header>
+		<!--登录弹出框开始-->
+		<div class="xl_olBox">
+			<div class="xl_olBoxtop">
+				<a href="#" title="关闭" class="box-close"></a>
+			</div>
+			<div class="xl_loginBox"> </div>
+			<div class="xl_olBoxFoot">
+		    	<p>继续访问即代表您已同意<a href="#">华为商城服务协议</a>和<a href="#">华为隐私政策</a></p>
+		    </div>
+		</div> 
+		<!--登录弹出框结束-->
+		<!--顶部开始-->
+		<div class="cart_top">
+			<div class="cart_topCon">
+				<div class="cart_topleft">
+					<div class="cart_topLog">
+						<a href="#" title="华为商城">
+							<img src="https://res.vmallres.com/pimages//sale/2019-01/AF2GXbxrWmRqvyNfYzCl.png" alt="华为商城">
+						</a>
+						<span>我的购物车</span>
+					</div>
+				</div>
+				<div class="cart_topright">
+					<div class="cart_toprightCon">
+						<div class="progress-cart">我的购物车</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--顶部结束-->
+		<!--中间内容开始-->
+		<div class="cart-Mid">
+			<div class="login-prompt">
+                                       您还没有登录！登录后可查看之前加入的商品
+                <a href="javascript:;" class="xl_pleaseLogin">登录</a>
+			</div>
+			<div class="hr-20"></div>
+			<div class="cart-empty">
+				<span class="cart-minicart"></span>
+				<p>您的购物车里什么也没有哦~</p> 
+				<a href="index.html">去逛逛</a>
+			</div>
+			<div class="cart-list" id="cart-list">
+				<div class="cart-list-titl">
+					<label class="cart-checkbox">
+					   <input readonly="readonly" class="vam checked"> 全选
+					</label>
+					<ul>
+						<li>商品</li> 
+						<li>单价</li> 
+						<li>数量</li> 
+						<li>小计</li> 
+						<li>操作</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<form action="" method="get" id="cart-form">
+					<div class="cart-formCon" id="cart-formCon">
+						
+					    <div class="clear"></div>
+					</div>  
+					<div class="clear"></div>
+				</form>
+				<div class="cart-total">
+					<div class="cart-total-control">
+						<label class="cart-checkbox">
+							<input readonly="readonly" class="vam checked"> 
+							全选
+						</label>
+						<a href="javascript:;" class="del-input1">删除</a>
+						
+					</div> 
+					<div class="cart-total-btn ">
+				    	<a href="javascript:;">立即结算</a>
+			    	</div>
+					<div class="cart-total-price">
+						<p>
+							<label>总计：</label> 
+					      <span>¥</span>
+					      <span id="goods-total-price"> 2499.00</span>
+					       <em><b>不含运费</b></em>
+						</p>
+						<div class="total-choose">
+							已选择
+                            <em id="goods-total-num">1</em>件商品，优惠：
+                            ¥&nbsp;<span id="goods-total-discount">200.00</span>
+						</div>
+					</div>
+				   	
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--中间内容结束-->
+		
+		<!--底部-->
+		<div class="xl_footAll">
+		</div>
+		<div class="clear">
+			
+		</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+<script type="module" charset="utf-8">
+	import {acc} from "./js/frist.js";
+	 $("header").load("index.html header",function(){ 
+	 	acc(); 
+	 })
+	 $(".xl_footAll").load("index.html .xl_footAll",function(){
+	 	 acc();
+	  })
+</script>
+<script  type="module" charset="utf-8">
+	import {login} from "./login.js";
+	$(".xl_loginBox").load("login1.html .xl_loginBox",function(){
+		login();
+	})
+</script>
+<script type="text/javascript" src="js/cart.js"></script>

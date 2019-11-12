@@ -1,0 +1,1761 @@
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;	
+}
+.xl_top{
+	width:100%;
+	height:36px;
+	background-color: #f9f9f9;
+	display: flex;
+}
+.xl_topCon{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	line-height: 36px;
+}
+.xl_topCon li{
+	float: left;
+    padding: 0 8px;
+    position: relative;
+    font-size: 10px;
+    line-height: 36px;
+    color: #a4a4a4;
+}
+.xl_topCon li:before{
+    content: "";
+    width: 1px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    background: #d3d3d3;
+ }
+ .xl_top li:first-child{
+ 	    padding-left: 0;
+ }
+ .xl_top li:first-child:before{
+    display: none;
+}
+.xl_topCon a{
+	 color: #a4a4a4;
+	 font-size: 12px;
+}
+.xl_topConLeftBlock,.xl_topConRightBlock{
+	position: relative;
+    z-index: 310;
+    margin: 0 -9px;
+    height: 36px;
+}
+.xl_topConLeft-a:before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(https://res8.vmallres.com/20190808/css/../images/echannel/icon/icon-common.svg) no-repeat;
+    background-position: -73px 2px;
+    position: absolute;
+    top: 10px;
+    right: 3px;
+  }
+a:hover{
+	color: #CF0A2C;
+}
+.b{
+	display: none;
+    position: absolute;
+    top: 36px;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    border-radius: 8px 0 8px 8px;
+    width: 119px;
+    text-align: center;
+    z-index: 19;
+}
+.h{
+	position: relative;
+    padding: 0 22px 0 10px;
+    height: 36px;
+	z-index: 20;	
+}
+.xl_topConLeftBlock:hover .h{
+	background-color: white;
+}
+.xl_topConLeftBlock:hover .h a{
+	 color: #CF0A2C;
+}
+.xl_topConLeftBlock:hover .xl_topConLeft-a:before{
+	  background-position: -87px 2px;
+}
+.xl_topConLeftBlock:hover .b{
+	 display: block;
+}
+.xl_topConRight{
+	float: right;
+}
+.xl_topConRightBlock,.xl_topConRightBlock2,.xl_topConRightBlock3{
+	position: relative;
+    z-index: 310;
+    margin: 0 -9px;
+    height: 36px;
+}
+.xl_topConRightBlock .b{
+	border-radius: 0 0 8px 8px;
+	width: 80px;
+    padding: 6px 0 12px 0;
+    text-align: center;
+    line-height: 32px;
+}
+.xl_topConRightBlock:hover .xl_topConLeft-a:before{
+	  background-position: -87px 2px;
+}
+.xl_topConRightBlock:hover .b{
+	 display: block;
+}
+.xl_topConRightBlock:hover .h{
+	background-color: white;
+}
+.xl_topConRightBlock:hover .h a{
+	 color: #CF0A2C;
+}
+.xl_main a:hover{
+	color: #CF0A2C!important;
+}
+/*网站导航*/
+.xl_topConRightBlock2 .b{
+	width: 893px;
+}
+.xl_bigBox{
+	width: 893px;
+    line-height: 20px;
+    color: #777;
+    display: flex;
+}
+.xl_bigBox-a{
+ 	float: left;
+    width: 50px;
+    text-align: center;
+    margin: 37px 46px 0 49px;
+    color: #777;
+}
+ .xl_bigBox-a span{
+ 	width: 50px;
+    height: 50px;
+    display: block;
+    margin-bottom: 3px;
+ }
+ .xl_bigBox-a span:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(https://res8.vmallres.com/20190808/css/../images/echannel/icon/icon-common.svg) no-repeat;
+    background-position: -202px 0;
+}
+.xl_b_channel{
+    width: 185.0px;
+    margin-top: 22.0px;
+    margin-bottom: 20.0px;
+    text-align: left;
+}
+.xl_b_channel h2{
+    margin-bottom: 8.0px;
+    font-size: 16px;
+    color: #333!important;
+    font-weight: 700;
+}
+.xl_b_channel a{
+	display: inline-block;
+	width: 80.0px;
+    margin-bottom: 4.0px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xl_topConRightBlock2:hover .xl_topConLeft-a:before{
+	  background-position: -87px 2px;
+}
+.xl_topConRightBlock2:hover .b{
+	 display: block;
+}
+.xl_topConRightBlock2:hover .h{
+	background-color: white;
+}
+.xl_bigBox-a:hover{
+	color:#CF0A2C ;
+}
+.xl_topConRightBlock2:hover .h a{
+	color: #CF0A2C;
+}
+/*手机版*/
+.xl_bigBox2{
+    padding: 20px 0 20px 0;
+    width: 244px;
+    display: flex; 
+    flex-wrap: wrap;  
+}
+.xl_topConRightBlock3 .b{
+	width: 244px; 
+}
+.xl_topConRightBlock3:hover .xl_topConLeft-a:before{
+	  background-position: -87px 2px;
+}
+.xl_topConRightBlock3:hover .b{
+	 display: block;
+}
+.xl_topConRightBlock3:hover .h{
+	background-color: white;
+}
+.xl_topConRightBlock3:hover .h a{
+	 color: #CF0A2C;
+}
+.xl_bigBox2Top,.xl_bigBox2Mid,.xl_bigBox2Bom{
+    padding-left: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px; 
+    width: 244px;
+}
+.code-img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 12px;
+}
+.xl_bigBox2TopInf,.xl_bigBox2BomInf{
+	float: left;
+    line-height: 18px;
+}
+.xl_bigBox2TopInf h2{
+	font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #000000;
+}
+.xl_bigBox2TopInf p{
+	color: #cb242b!important;
+    line-height: 16px;
+}
+.xl_bigBox2TopS1,.xl_bigBox2TopS2,.xl_bigBox2BomS1{
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-top: 5px;
+}
+.xl_bigBox2TopS1,.xl_bigBox2TopS2,.xl_bigBox2BomS1:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:url(https://res8.vmallres.com/20190808/css/../images/echannel/icon/icon-common.svg) no-repeat;
+    margin-top: 1px;
+}
+.xl_bigBox2TopS1{
+	background-position: -30px 0;
+	float: right;
+	margin-right: 8px;
+}
+.xl_bigBox2BomInf h2{
+	font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #000000;
+}
+.xl_bigBox2BomInf p{
+    line-height: 16px;
+    text-align: left;
+}
+.xl_bigBox2BomS1:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:url(https://res8.vmallres.com/20190808/css/../images/echannel/icon/icon-common.svg) no-repeat;
+    margin-top: 1px;
+    background-position: -30px 0;
+}
+.xl_bigBox2Bom{
+	padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+/*<!--login开始-->*/
+.xl_nav{
+	width: 1200px;
+    height: 41px;
+    padding: 18px 0 15px 0;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+.xl_nav a{
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    display: block;
+}
+.xl_log{
+	float: left;
+	margin-right: 34px;
+}
+.xl_log img{
+	height: 36px;
+	width: 205px;
+}
+.xl_navMid{
+	float: left;
+    width: 640px;
+    height: 40px;
+    overflow: hidden;
+}
+.xl_navMid li{
+	float: left;
+    margin-right: 24px;
+	margin-top: 7px;
+}
+   
+.xl_navMidImg img{
+	height: 24px;
+}
+.xl_navMidImg a:hover{
+	opacity: 0.7;
+}
+.xl_navMid a:hover{
+	color:#CF0A2C ;;
+}
+.xl_navRight{
+	float:right;
+	
+	position: relative;
+}
+.xl_navRightSearch{
+    width: 318px;
+    height: 30px;
+    background: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 16px;    
+}
+.xl_navRightSearch:after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(https://res8.vmallres.com/20190808/css/../images/echannel/icon/icon-common.svg) no-repeat;;
+    background-position: -139px 0;
+    position: absolute;
+    top: 6px;
+    right: 13px;
+}
+#text{
+    border: 0;
+    color: #3a3a3a;
+    width: 285px;
+    text-indent: 15px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 16px;
+    background-color: #f0f0f0 ;
+    outline: none;
+}
+#sub{
+	width: 35px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+    color: #353535;
+    font-size: 0;
+    z-index: 10;
+    outline: none;
+}
+.xl_navRightKey{
+	position: absolute;
+    max-width: 240px;
+    right: 31px;
+    bottom: 16px;
+    white-space: nowrap;
+    overflow: hidden;  
+    
+}
+.xl_navRightKey a{
+	color: #CF0A2C;
+	font-size: 12px;
+	margin-right: 14px;
+	display: inline-block;
+}
+.xl_navRight:hover{
+	border: 1px ;
+}
+/*弹出框开始*/
+.xl_olBox{
+	display: none;
+    position: fixed;
+    top: 0px;
+    left: 424.5px;
+    z-index: 5000;
+    width: 500px;
+    height: 635px;
+    background-color: #FFF;
+    overflow: visible;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);   
+}
+.xl_olBoxtop{
+	cursor: move;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #a51b1b;
+    background: 0;
+    background: #a51b1b;
+}
+.box-close {
+    display: block;
+    height: 11px;
+    padding-left: 12px;
+    line-height: 1px;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    background: transparent url(../img/icon1.png) scroll no-repeat;
+    background-position: -148px 0;
+}
+.xl_loginBox{
+	margin: 0 auto;
+	float: none!important;
+}
+.remeberTipInf{
+	bottom: 290px!important;
+}
+.remeberTipSan span{
+	bottom: 275px!important;
+}
+.re-more{
+	top:51%!important;
+}
+ .xl_loginAccFoot{
+    bottom: 30px!important;
+}
+.xl_olBoxFoot{
+	text-align: center;
+	position: absolute;
+	left: 100px;
+	bottom:15px;
+	font-size: 12px;
+}
+.xl_olBoxFoot a{
+	color: #007dff;
+	text-decoration: underline;
+}
+.xl_olBoxFoot a:hover{
+	text-decoration:none;
+	color: #007dff!important;
+}
+
+/*轮播图开始*/
+.box{
+	position: relative;
+    height: 550px;
+    width: 1349px;
+}
+.oimg{
+	height: 550px;
+    width: 1349px;
+}
+.box ul{
+	position: absolute;
+	height: 550px;
+    width: 1349px;
+    overflow: hidden;
+}
+.oimg>ul>li{
+	float: left;
+    cursor: pointer;	
+}
+.btn>ul>li{
+	float: left;
+	margin: 0px 4px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid #FFF;
+    cursor: pointer;		
+}
+.one{
+	background-color: white !important;
+}
+.btn>ul{
+	top: 448px;
+	width:180px;
+	height: 20px;
+	right: 13px;
+}
+#btn-previous,#btn-next{
+	width: 80px;
+	height: 80px;
+	background-color: gainsboro;
+	opacity: 0.5;
+	border: none;
+	font-size: 26px;
+	color: ghostwhite;
+	position: absolute;
+	outline: none;
+	z-index: 2;
+	cursor: pointer;
+	border-radius: 2px;
+	background: url(https://res8.vmallres.com/20190808/css/../images/echannel/icon/icon01.svg) no-repeat;
+	background-position: 0 -72px;
+}
+#btn-previous{				
+    left: 300px;
+    top: 199px;				
+}
+#btn-next{				
+    background-position: -80px -72px;
+	right:66px;
+    top: 199px;			
+}
+.box img{
+   height: 550px;
+    width: 1349px;
+    display: block;
+}
+#btn-previous:hover{
+	background-position: -240px -72px;
+}
+#btn-next:hover{
+	background-position: -160px -72px;
+}
+/*分类*/
+.xl_sortBox{
+	width: 1200px;
+    margin: 0 auto;
+    position:relative;
+    top: -549px;
+    z-index: 200;
+}
+.xl_sort{
+	position: absolute;
+    left: 0;
+    top: 18px;
+    width: 200px;
+    z-index: 201;
+    height: 440px;
+}
+.xl_sortList{
+    position: relative;
+    height: 440px;
+    box-shadow: 0 0 46px rgba(0,0,0,0.03);
+    background: rgba(255,255,255,0.93);
+    border-radius: 10px;
+    z-index: 202;
+}
+
+/*分类一*/
+.xl_sortInfo{
+	padding: 12px 0 13px 0;
+	margin-left: 25px;
+	width: 150px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+	height: 47px;
+	position: relative;
+	z-index: 203;
+}
+#xl_sortListcLast{
+	border-bottom:0 !important;
+	height: 48px;
+	border-radius: 10px;
+}
+.xl_sortInfo a{
+	color: #a6a6a6;
+	margin-right: 4px;
+	font-size: 14px;
+	display: inline-block;
+
+}
+.xl_sortInfo a:first-child{
+	font-size: 16px;
+	line-height: 26px;
+}
+.xl_sortDetailed{
+    position:absolute;
+	left: 198px;
+	height: 416px;
+	width: 662px;
+	background: #FFF;
+	padding: 24px 22px 0 28px;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 40px 0 46px rgba(0, 0, 0, 0.1);
+	top:0;
+	z-index: 1;
+	overflow: hidden;
+	display: none;
+}
+.xl_sortDetList{
+ 	width: 204px;
+	float: left;
+ }               
+.xl_sortDetList li{
+	float: left;
+	margin-bottom: 24px;
+}
+.xl_sortDetList a{
+	display: block;
+	width: 204px;
+	height: 80px;
+	font-size: 14px;
+	border-radius: 10px;
+	margin-right: 0
+}
+.xl_sortDetList img{
+	width: 56px;
+	height: 56px;
+	float: left;
+	margin: 12px 8px 0 6px;
+}	
+.xl_sortDetList span{
+	float: left;
+	color: #777;
+	font-size: 13px;
+	margin-top: 30px;
+	width: 120px;
+}
+.xl_sortDetList-btn a{
+	width: 112px;
+	height: 42px;
+	line-height: 42px;
+	margin-top: 18px;
+	margin-left: 36px;
+	border: 1px solid #f2f2f2;
+	border-radius: 0 22px 22px 0;
+	font-size: 13px;
+	color: #a7a7a7;
+	display: block;
+	position: relative;
+	text-indent: 34px
+}
+.xl_sortDetList-btn a:hover{
+	color:#a7a7a7!important;
+}
+.xl_sortDetList-btn:hover{
+	background: none!important;
+}
+.xl_sortDetList-btn a:before {
+	content: "";
+	width: 42px;
+	height: 42px;
+	background: #fff;
+	border: 1px solid #f2f2f2;
+	display: block;
+	border-radius: 22px;
+	position: absolute;
+	top: -1px;
+	left: -22px
+}
+.xl_sortDetList-btn a:after {
+	content: "";
+	display: block;
+	border-bottom: 5px solid transparent;
+	border-top: 5px solid transparent;
+	border-left: 5px solid #c0c0c0;
+	position: absolute;
+	top: 16px;
+	left: -1px
+}
+#xl_sortDetailed2{
+	width: 204px;
+}
+#xl_sortDetailed4{
+	width: 1026px;
+}
+#xl_sortDetailed6{
+	width: 408px;
+}
+.xl_sortListc:hover a{
+	color: #000000;
+}
+.xl_sortBox a:hover,.xl_footer a:hover{
+	color: #CF0A2C !important;
+}
+.xl_sortListc:hover .xl_sortListcBg{
+	background: #fff;
+	box-shadow: 0 0 46px rgba(0, 0, 0, 0.1);
+}
+.xl_sortDetList	li:hover{
+	background-color: #F6F6F6;
+	border-radius:10px ;
+}	
+.xl_sortListcBg active:after {
+	content: "";
+	width: 60px;
+	height: 72px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	right: -10px;
+	z-index: 2;
+	display: none;
+}
+/*.xl_sortListc{
+	position: relative;
+	z-index: 199;
+}
+/*.xl_sortListcBg{
+	position: relative;
+	/*z-index: 199;
+}*/
+/*菜单栏*/
+.xl_menuMask{
+    text-align: center;
+    width: 100%;
+    min-width: 1200px;
+    height: 72px;
+    display: block;
+    position: absolute;
+    top: 590px;
+    z-index: 350;
+}
+.xl_menuMask span{
+    width: 100%;
+    min-width: 1200px;
+    height: 72px;
+    display: block;
+    background-image: url(../img/bg-slide.png);
+    background-size: 100% 72px;
+}
+.xl_menu{
+	position: relative;
+    top: -72px;
+    height: 34px;
+    z-index: 360;
+}
+.xl_menu>ul{
+    background: #FFF;
+    text-align: center;
+    border-top: 0 none;
+    width: 1200px;
+    height: 88px;
+    border-radius: 10px;
+    box-shadow: 0 2px 26px rgba(0,0,0,0.07);
+    position: absolute;
+    z-index: 2;
+    left: 75px;
+}
+.xl_menuLeft{
+	width: 270px;
+    height: 55px;
+    margin-top: 17px;
+    border-right: 1px solid #eee;	
+    float: left;
+}
+.xl_menuLeftCon{
+	padding: 0;
+    padding-left: 26px;
+    text-align: left;
+}
+.xl_menuLeftImg{
+	width: 52px;
+    height: 52px;
+    margin-right: 17px;
+    float: left;
+}
+.xl_menuLeftImg img{
+	width: 52px;
+    height: 52px;
+}
+.xl_menuLeftRigTop{
+	float: left;
+	margin-top: 1px;
+	font-size: 14px;
+    color: #999;
+}
+.xl_menuLeftRigTop a{
+	color:black;
+}
+.xl_menuLeftRigFot{
+	float: left;
+	margin-top: 9px;
+}
+.xl_menuLeftRigFot a{
+	display: inline-block;
+	border-radius: 5px;
+	text-align: center;
+	width: 68px;
+}
+.xl_RigFotNew{
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #e47b7f;
+    color: #de5b60;
+    margin-right: 8px;
+    font-size: 14px;
+}
+#xl_RigFotNew:hover{
+	color: white!important;
+	background:#de5b60;
+}
+#xl_RigFotVip:hover{
+	 background:black;
+	 color: #fde4b3!important ;
+}
+.xl_RigFotVip{
+    height: 23px;
+    line-height: 22px;
+    background: #595454;
+    color: #fde4b3;
+    font-size: 13px; 
+}
+.xl_menuMid{
+	width: 660px;
+    margin-top: 17px;
+    float: left;
+}  
+.xl_menuMidCon{
+	display: flex;
+	width: 100% ;
+	justify-content: space-around;
+}
+.xl_menuMidCon li{
+	text-align: center;
+    float: none;
+    width: 104px;
+}
+.xl_menuMidCon a{
+   text-align: center;
+    display: block;
+    width: 100%;
+    min-width: 48px;
+    max-width: 84px;
+    margin: 0 auto;
+} 
+.xl_menuMidConImg{
+	width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.xl_menuMidConImg img,.xl_menuFootBom img{
+	position: absolute;
+    width: auto;
+    height: auto;
+    transform: scale(0.5,0.5);
+    top: -20px;   
+}
+.xl_menuMidConImg1{
+	left: -150px;
+}
+.xl_menuMidConImg2{
+	left: -190px;
+}
+.xl_menuMidConImg3{
+	left: -230px;
+}
+.xl_menuMidConImg4{
+	left: -270px;
+}
+.xl_menuMidConImg5{
+	left: -310px;
+}
+.xl_menuMidConImg6{
+	left: -350px;
+}
+.xl_menuMidCon p{
+	line-height: 24px;
+    width: 100%;
+    text-align: center;
+    color: #777;
+    font-size: 13px;
+}  
+.xl_menuMidCon p:hover{
+	 color: #CF0A2C !important;;
+}
+ .xl_menuFoot{
+ 	width: 266px;
+    height: 88px;
+    border-left: 1px solid #eee;
+    float: left;
+ }
+ .xl_menuFootTop{
+ 	height: 43px;
+    border-bottom: 1px solid #eee;	
+ }
+.xl_menuFTopLeft{
+ 	float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 13px 8px 0 17px;
+ }
+.xl_menuFootTop a{
+ 	font-size:14px ;
+ 	font-weight: bold;
+ 	color: #777;
+ }
+.xl_menuFTopRig{
+ 	height: 43px;
+    overflow: hidden;
+    text-align: left;
+    width: 185px;
+    position: relative;
+    float: left;
+    top:-1px;
+ }
+ .xl_menuFTopRig li{
+ 	line-height: 43px;
+ }
+ .xl_menuFTopRig a{
+ 	font-weight: 100 !important;
+ 	font-size:12px ;
+ }
+.xl_menuFootBom li{
+	height: 42px;
+	line-height: 42px;
+	width: 87px;
+	float: left;
+}
+.xl_menuFootBom span{
+	margin-right: 2px;
+	display: inline-block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	top: 5px;
+	overflow: hidden
+}
+.xl_menuFootBomImg1{
+	left: -390px;
+} 
+.xl_menuFootBomImg2{
+	left: -410px;
+} 
+.xl_menuFootBomImg3{
+	left: -430px;
+} 
+.xl_menuFootBom a{
+	font-size: 12px;
+	color: #666666;
+}
+.xl_newPhone{
+	width: 1200px;
+	margin: 0 auto;
+}
+.xl_newPhone li{
+	float:left;
+	margin-left: 13px;
+	width: 287px;
+	height: 200px;
+	border-radius: 20px;
+	transition: all .2s linear 0s;
+}
+.xl_newPhone li:hover {
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1)
+}
+#xl_newPhoneLi{
+	margin-left:1px!important;
+}
+.xl_newPhone img {
+	width: 287px;
+	height: 200px;
+	border-radius: 10px;
+}
+/*热销单品*/
+.xl_saleGoods{
+	width: 1200px;
+	margin: 0 auto;
+}
+.xl_saleGoodsTop{
+	width: 100%;
+}
+.xl_saleGoodsTop h1{
+	font-size: 26px;
+    color: #333;
+    padding: 27px 0 13px 0;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.xl_saleGoodsFoot{
+	width: 100%;
+	display: flex;
+}
+.xl_sGodsFootLeft{
+	width: 230px;
+	height: 592px;
+	border-radius: 10px;
+	transition: all .2s linear 0s;	
+}
+.xl_sGodsFootLeft:hover{
+	box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+}
+.xl_sGodsFootLeft img{
+	 width: 230px;
+    height: 592px;
+    border-radius: 10px;
+    display: block;
+}
+ .xl_sGodsFootRig{
+ 	width: 968px;
+ 	text-align:center;
+ }
+.xl_sGodsFootRig li,.xl_phoneFoot li{
+ 	width: 230px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-bottom: 12px;
+    margin-top: 0;  
+    display: inline-block;
+    transition: all .2s linear 0s;	
+    text-align:center;	
+}
+.xl_sGodsFootRig img,.xl_phoneFoot img{
+	width: 150px;
+	height: 150px;
+    display: block;
+    margin-top:15px ;
+}
+.xl_sGodsRigSbl{
+	display: inline-block;
+    padding: 1px 9px;
+    line-height: 22px;
+    color: #fff;
+    border-radius: 0 0 6px 6px;
+    background-color: #68BEFF;
+    font-size: 10px;
+}
+.xl_sGodsRigSb3{
+	display: inline-block;
+    padding: 1px 9px;
+    line-height: 22px;
+    font-size: 10px;
+}
+.xl_sGodsRigSb2{
+	display: inline-block;
+    padding: 1px 9px;
+    line-height: 22px;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 0 0 6px 6px;
+	background-color:#FF6A6E!important;
+}
+.xl_sGodsRig1{
+	width: 150px;
+    height: 188px;
+    margin: 0px auto;   
+}
+.xl_saGodsRig2{
+    margin-top: 12px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    display: block;
+}
+.xl_sGodsRig3{
+	color: #777;
+    font-size: 12px;
+    font-weight: 400;  
+}
+.xl_sGodsRig4{
+	color: #d0021b;
+    line-height: 21px;
+    font-size: 13px;
+    font-weight: 400;
+    margin:9px 0px 23px -5px ;   
+}
+.xl_sGodsFootRig li:hover{
+	box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+}    
+.xl_recommend,.xl_smartSort,.xl_smartHome,.xl_hotSell,.xl_quality{
+	width: 1200px;
+	margin: 0 auto;
+}
+.xl_recommendFoot,.xl_smartSortFoot,.xl_smartHomeFoot,.xl_hotSellFoot,.xl_qualityFoot{
+	position: relative;
+    width: 1200px;
+}
+.xl_recFootCon,.xl_smtFootCon,.xl_smartHomeCon,.xl_hotSellCon,.xl_qualityCon{
+	width: 1210px;
+    height: 298px;
+    position: relative;
+    margin-bottom: 8px;
+    left: -5px; 
+    overflow: hidden;
+}
+.xl_recFootConUl,.xl_smtSortConUl,.xl_smartHomeConUl,.xl_hotSellConUl,.xl_qualityConUl,.friendLinkUl{
+	box-sizing: content-box;
+	transition-property: transform,left,top;
+	transition-timing-function: ease;
+	height: 295px;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0.3s;
+    width: 3630px;
+    min-width: 1200px;
+}
+.xl_recFootConUl li{
+	width: 238px;
+    height: 295px;
+    display: inline-block;
+}
+.xl_recFootConUl a,.xl_smtSortConUl a,.xl_smartHomeConUl a,.xl_hotSellConUl a,.xl_qualityConUl a{
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.xl_recFootConInf,.xl_smtSortConInf{
+	width: 230px;
+    height: 242px;
+    margin: 5px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+    transition: all .2s linear 0s;
+    text-align: center;
+}
+.xl_recFootConInf1 img{
+	width: 150px;
+    height: 150px;
+    display: block;
+    margin: 11px auto;
+}    
+.xl_recFootConInf2,.xl_smtSortConInf2{
+	width: 210px;
+	font-size: 14px;
+    line-height: 36px;
+    padding: 0 10px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    top: 211px;
+    background: #f3f3f3;
+    color: #777;
+}
+.xl_recFootConInf3,.xl_recFootConInf4{
+    height: 24px;
+    display:block;
+    margin-top: 9px;
+    font-size: 14px;
+    color: black;
+}
+.xl_recFootConInf4{
+	color: #d0021b!important;
+	margin-top: 2px;
+}
+.xl_rec-btn-next,.xl_rec-btn-prev,.xl_smt-btn-prev ,.xl_smt-btn-next,.xl_home-btn-prev,.xl_home-btn-next,.xl_hot-btn-prev,.xl_hot-btn-next,.xl_quality-btn-prev,.xl_quality-btn-next{
+	width: 36px;
+    height: 72px;
+    top: 90px;
+	background: rgba(0,0,0,0.1);
+    text-align: center;  
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+}  
+.xl_rec-btn-next,.xl_smt-btn-next,.xl_home-btn-next,.xl_hot-btn-next,.xl_quality-btn-next{
+	right: 6px;
+	border-radius: 8px 0 0 8px;
+}
+.xl_rec-btn-prev,.xl_smt-btn-prev,.xl_home-btn-prev,.xl_hot-btn-prev,.xl_quality-btn-prev{
+	left: 1px;
+	border-radius: 0px 8px 8px 0px;
+}
+.xl_rec-btn-next:before,.xl_smt-btn-next:before{
+	content: ">";
+    left: 2px;
+	font-family: "iconfont"!important;
+    color: #393939;
+    font-size: 24px;
+    line-height: 72px;
+    position: relative;
+} 
+.xl_rec-btn-prev:before,.xl_smt-btn-prev:before,.xl_quality-btn-prev:before{
+	content: "<";
+    left: 2px;
+	font-family: "iconfont"!important;
+    color: #393939;
+    font-size: 24px;
+    line-height: 72px;
+    position: relative;
+}
+.xl_home-btn-next:before,.xl_hot-btn-next:before,.xl_quality-btn-next:before{
+	content: ">";
+    left: 2px;
+	font-family: "iconfont"!important;
+    color: #393939;
+    font-size: 24px;
+    line-height: 72px;
+    position: relative;
+} 
+.xl_home-btn-prev:before,.xl_hot-btn-prev:before{
+	content: "<";
+    left: 2px;
+	font-family: "iconfont"!important;
+    color: #393939;
+    font-size: 24px;
+    line-height: 72px;
+    position: relative;
+}     
+.xl_rec-btn-prev:hover,.xl_home-btn-prev:hover,.xl_quality-btn-prev:hover{
+	background: rgba(0,0,0,0.2)
+}
+.xl_rec-btn-next:hover,.xl_home-btn-next:hover,.xl_quality-btn-next:hover{
+	background: rgba(0,0,0,0.2)
+}
+.xl_smt-btn-prev:hover,.xl_hot-btn-prev:hover{
+	background: rgba(0,0,0,0.2)
+}
+.xl_smt-btn-next:hover,.xl_hot-btn-next:hover{
+	background: rgba(0,0,0,0.2)
+}
+/*小轮播开始*/ 
+.small-banner{
+	position: relative;
+    height: 120px;
+    width: 1200px;
+    margin: 35px auto;
+}
+.small-bannerCon{
+	height: 120px;
+    width: 1200px;
+}
+.small-banner ul{
+	position: absolute;
+	height: 120px;
+    width: 1200px;
+    overflow: hidden;
+}
+.small-banner-ul>li{
+	float: left;
+    cursor: pointer;	
+}
+.small-btn>ul>li{
+	float: left;
+	margin: 0px 4px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid #FFF;
+    cursor: pointer;		
+}
+.small-one{
+	background-color: white !important;
+}
+.small-btn>ul{
+	bottom:2px;
+	width:180px;
+	height: 20px;
+	right: 15px;
+}
+.small-banner img,.xl_life img,.xl_newPreson img{
+    height: 120px;
+    width: 1200px;
+    display: block;
+    border-radius: 10px;
+}
+/*手机开始*/
+.xl_phone,.xl_note,.xl_smart{
+	width:1200px;
+	margin: 0 auto;
+}
+.xl_phoneTop,.xl_noteTop{
+	width: 1200px;
+	margin-top: 41px;
+	margin-bottom:12px;
+}
+.xl_phoneTop h1,.xl_noteTop h1{
+	font-size: 26px;
+	line-height: 32px;
+	color: #333;
+	float: left;
+	font-weight: 400;
+	margin-right: 28px;
+}
+.xl_phoneTop li,.xl_noteTop li{
+	float: left;
+	margin-right:24px ;
+}
+.xl_phoneTop a,.xl_noteTop a{
+	font-size: 14px;
+	line-height: 32px;
+    color: #999;
+}
+.xl_phoneTopMore{
+    color: #333!important;
+  float: right;
+}  
+.xl_phoneTopMore:after{
+	display: inline-block;
+    content: ">";
+    color: #303030;
+    font-size: 18px;
+    line-height: 14px;
+    position: relative;
+    top: 1px; 
+    left:5px;
+}
+.xl_phoneFoot{
+	width: 1200px;
+}   
+#xl_phoneFootFpic{
+	width: 230px;
+    height: 290px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 0 !important; 
+    float: left;
+}
+.xl_phoneFootFli{
+	width: 230px;
+    height: 290px;
+    float: left;
+}
+.xl_phoneFoot li:hover{
+	box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+}   
+/*智能穿戴开始*/ 
+.xl_smartFootFli{
+	width: 472px !important;
+    height: 290px;
+    float: left;
+} 
+#xl_smartFootFpic{
+	width: 472px;
+    height: 290px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 0 !important; 
+    float: left;
+}
+/*智能穿戴分页开始*/
+.xl_smtFootCon,.xl_smartHomeCon,.xl_hotSellCon,.xl_qualityCon{
+	height: 240px!important;
+}
+.xl_smtSortConUl,.xl_smartHomeConUl,.xl_hotSellConUl,.xl_qualityConUl{
+    width:2420px!important;
+	height: 240px!important;
+}
+.xl_smtSortConUl li,.xl_smartHomeConUl li,.xl_hotSellConUl li,.xl_qualityConUl li{
+	width: 197px;
+    height: 240px;
+    display: inline-block;
+}
+.xl_smtSortConInf{
+	width: 190px!important;
+	height: 185px!important;
+}
+.xl_smtSortConInf1 img{
+	width: 110px!important;
+	height: 110px!important;
+	display: block;
+    margin: 0px auto;
+	
+}
+.xl_smtSortConInf2{
+	width: 170px!important;
+	background-color: #f3f3f3!important;
+	height: 32px!important;
+	top:158px!important;
+} 
+.xl_smtSortConInf{
+	 background: #f9f9f9!important;
+	  box-shadow: 0;
+}  
+.xl_smt-btn-prev,.xl_smt-btn-next,.xl_home-btn-next,.xl_home-btn-prev,.xl_hot-btn-next,.xl_hot-btn-prev,.xl_quality-btn-prev,.xl_quality-btn-next{
+	top:54px!important;	
+}
+.xl_smt-btn-next,.xl_home-btn-next,.xl_hot-btn-next,.xl_quality-btn-next{
+	right: 2px!important;
+} 
+/*智慧生活馆*/  
+.xl_life{
+	width: 1200px;
+	margin: 41px auto;
+	height: 120px;
+}
+.xl_newPreson{
+	width: 1200px;
+	margin: 20px auto;
+	height: 200px;
+}
+.xl_newPreson img{
+	height: 200px!important;
+}
+.xl_slogan,.xl_service{
+	width: 100%;
+	background: #f9f9f9;
+	height: 83px;
+	margin-top: 60px;
+}
+.xl_sloganCon{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    height: 81px;
+    border-bottom:1px solid #e5e5e5; 
+}
+.xl_slogan li{
+	float: left;
+	width: 300px;
+	line-height: 82px;
+}
+.xl_slogan a{
+	font-size: 18px;
+    color: #3a3a3a;
+}
+.xl_slogan a:hover{
+	color: #3a3a3a!important;
+}
+.xl_slogan span{
+	display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right:15px;
+    background-image:url(../img/icon01.svg);
+    background-repeat: no-repeat;
+}
+.xl_slogan1{
+	display: inline-block;
+	background-position: -74px 0;
+}
+.xl_slogan2{
+	display: inline-block;
+	background-position: -154px 0;
+}
+
+.xl_slogan3{
+	display: inline-block;
+	background-position: -194px 0;
+}
+.xl_slogan4{
+	display: inline-block;
+	background-position: -114px 0;
+}
+.xl_service{
+	height: 211px!important;
+	margin-top: 0px!important;
+	float: left;
+}
+.xl_serviceCon{
+	width: 1200px;
+    margin: 23px auto;
+	height:186px;
+	border-bottom:1px solid #e5e5e5; ;
+}
+.xl_serviceConLeft{
+	width: 920px;
+    height: 155px;
+    border-right: 1px solid #e5e5e5; 
+    float: left;
+}
+.xl_serviceConLeft dl{
+	width: 16.66667%; 
+	float: left;
+	text-align: left;
+}
+.xl_serviceConLeft dt{
+	font-size: 14px;
+    padding-bottom: 7px;
+    color: #333;
+    display: block;
+    line-height: 1.5;
+} 
+.xl_serviceConLeft a{
+	line-height: 22px;
+	color: #777;
+	font-size: 12px;
+} 
+.friendLink{
+	display: inline-block;
+}
+.friendLink span{
+	display: inline-block;
+	width: 15px;
+	font-size: 16px;
+}
+.friendLink-prev{
+	color:#969696;	
+}
+.friendLink-prev,.friendLink-next{
+	cursor: pointer;
+}
+.friendLinkdd{
+	height: 115px!important;
+    width: 100%;
+    overflow: hidden;
+}
+.friendLinkUl li{
+	display: inline-block;
+	width: 153.33px;
+}
+.friendLinkUl{
+	width:470px!important;
+	height: 115px!important;
+	min-width: 153.33px!important;
+} 
+.xl_serviceConRig{
+	width:279px ;
+	height: 160px;
+	float: left;
+	text-align: center;
+}
+.xl_serviceConRig h3{
+    color: #575757;
+    font-size: 24px;
+    line-height: 45px;
+ }
+ .xl_serviceConRig p{
+ 	color: #575757;
+ 	line-height: 22px;
+ 	font-size: 14px;
+ }
+.xl_serviceConRigA{
+ 	display: inline-block;
+    width: 170px;
+    height: 34px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 34px;
+    background: #333;
+    border-radius: 17px;
+    color: white;
+ } 
+.xl_serviceConRigA span{
+  	display: inline-block;
+    height: 20px;
+    width: 22px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background-image:url(../img/icon-common.svg);
+    background-position: -40px -136px;
+    color: white;
+    background-size: 318px 292px;
+}
+.xl_serviceConbotR{
+	margin-left: 40px;
+}
+.vmall{	
+	display:inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #303030;
+    background-image:url(../img/icon-common.svg);
+}
+#vmall1{
+	 background-position: -34px 3px;
+}
+	
+#vmall2{
+	 background-position: -1px 3px;
+}	
+#vmall3{
+	 background-position: -42px -110px;
+}
+#vmall4{
+	 background-position: -6px -119px;
+}
+.xl_serviceConbot{
+	margin-top: 13px;
+	position: relative;
+}
+.xl_serviceConbot span{
+	position: absolute;
+	left:26px;
+	top:3px;
+	font-size: 14px;
+    color: #333;
+    float: left;
+}
+.xl_serviceConRigA:hover{
+	background-color: #777;	
+	color: white!important;
+}
+.xl_serviceConbot img{
+	width:100px ;
+	height: 100px;
+	position: absolute;
+	left:66px;
+	top:30px;
+	display: none;
+}
+.kong{
+	height: 200px;
+}
+
+/*底部*/
+footer{
+	height: 114px;
+	width: 100%;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.xl_footer{
+	width: 1200px;
+	margin: 25px auto;
+}
+.xl_footLeft{
+	width: 82px;
+    height: 20px;
+    padding: 3px 20px 0 0;
+    float: left;
+}
+.xl_footLeft img{
+	width: 82px;
+    height: 20px;
+}  
+.xl_footRight{
+	float: left;
+} 
+.xl_footRight ul{
+	display: block;
+	height: 16px;
+}
+.xl_footRight li{
+	float: left;
+    line-height: 1;
+    padding-right: 6px;
+    border-right: 1px solid #d3d3d3;
+    margin-right: 6px;
+}
+.xl_footRight>ul>li a{
+	 color: #777;
+	 font-size:12px;
+} 
+.xl_footRight li:last-child{
+	border: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+.xl_footRight a{
+	color:#a4a4a4;
+}
+.xl_footRight p{
+	margin-top: 8px;
+	font-size:12px;
+	color:#a4a4a4;
+}
+.xl_footRightR{
+	float: right;
+}
+.xl_footRightR img{
+    width: 70px;
+    height: 24px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.xl_fixed{
+	position: fixed;
+    right: 6px;
+    bottom: 20px;
+    height: 166px;
+    z-index: 800;
+}
+.xl_fixedCon{
+	width: 38px;
+    padding: 1px 0;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 2px;
+}     
+.xl_fixedCon a{
+	display: inline-block;
+	width: 38px;
+    height: 41px;
+    position: relative; 
+    background-image: url(../img/icon-common.svg);    
+}  
+/*#xl_fixedCon-a4{
+	display: none;
+}*/
+.xl_fixedCon-a1{
+	background-position: 0px -73px;
+}
+.xl_fixedCon-a1:hover{
+	background-position: 0px -35px;
+}
+.xl_fixedCon-a2{
+	background-position: -38px -73px;
+}
+.xl_fixedCon-a2:hover{
+	background-position: -38px -35px;
+}
+.xl_fixedCon-a3{  
+    background-position: -76px -75px;
+}
+.xl_fixedCon-a3:hover{  
+    background-position: -76px -37px;
+}
+.xl_fixedCon-a4{ 
+    background-position: -114px -75px;
+}
+.xl_fixedCon-a4:hover{ 
+    background-position: -114px -37px;
+}
+.xl_fixedConWod{
+	position: absolute;
+	font-size: 12px;
+    width: 76px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #777;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 36px 0 rgba(0,0,0,0.07);
+    left: -84px;
+    top: 0;
+    display: none;
+}
+.xl_fixedConWod:after{
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 6px solid #fff;
+    position: absolute;
+    top: 13px;
+    right: -6px;
+} 
+.ol_box_mask{
+	width: 1348px;
+    height: 10551px;
+    z-index: 4999;
+    background-color: #000;
+    opacity: .4;
+    top: 0;
+    left: 0;
+    position: fixed!important;
+    display: none;
+}
+
+
+   
